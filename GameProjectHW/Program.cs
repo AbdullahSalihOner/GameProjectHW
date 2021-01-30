@@ -7,7 +7,9 @@ namespace GameProjectHW
         static void Main(string[] args)
         {
             GamerManager gamerManager = new GamerManager(new UserValidationManager());
-            gamerManager.Add(new Gamer {Id=1,FirstName="Abdullah Salih",LastName="Öner",BirthYear=2000,NationlityId=11017381518 });
+            gamerManager.Add(new Gamer {Id=1,FirstName="Abdulkadir",LastName="Bar",BirthYear=2000,NationlityId=36787155555 });
+
+            Console.WriteLine("*****************************");
             gamerManager.Update(new Gamer { Id = 1, FirstName = "Abdullah Salih", LastName = "Öner", BirthYear = 2000, NationlityId = 11017381518 });
 
             Console.WriteLine("********************************");
