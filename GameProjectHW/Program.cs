@@ -10,7 +10,7 @@ namespace GameProjectHW
             gamerManager.Add(new Gamer {Id=1,FirstName="Abdulkadir",LastName="Bar",BirthYear=2000,NationlityId=36787155555 });
 
             Console.WriteLine("*****************************");
-            gamerManager.Update(new Gamer { Id = 1, FirstName = "Abdullah Salih", LastName = "Öner", BirthYear = 2000, NationlityId = 11017381518 });
+            gamerManager.Update(new Gamer { Id = 1, FirstName = "Abdullah Salih", LastName = "Öner", BirthYear = 2000, NationlityId = 12334343253 });
 
             Console.WriteLine("********************************");
 
